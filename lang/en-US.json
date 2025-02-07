@@ -1,0 +1,79 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "NumeralJS Plugin.",
+	"text": {
+		"plugins": {
+			"massive_cube_numeraljs": {
+				"name": "NumeralJS",
+				"description": "A javascript library for formatting and manipulatin",
+				"help-url": "https://www.massive-cube.com/community",
+				"properties": {
+					
+				},
+				"aceCategories": {
+					"NumeralJS": "NumeralJS"
+				},
+				"conditions": {
+					
+				},
+				"actions": {
+					"SetLocale": {
+						"list-name":"Set Locale",
+						"display-text":"Set Locale to {0}",
+						"description":"Set Locale",
+						"params": {
+							"lang": {
+								"name": "Language", 
+								"desc": "Language"
+							}
+						}
+						
+					}
+				},
+				"expressions": {
+					"numeral": {
+						"description":"Numeral takes numbers or strings that it trys to convert into a number",
+						"translated-name":"Val",
+						"params": {
+							"numOrString": {
+								"name": "Value", 
+								"desc": "String or Number"
+							}
+						}
+						
+					},
+					"format": {
+						"description":"Numbers can be formatted to look like currency, percentages, times, or even plain old numbers with decimal places, thousands, and abbreviations.",
+						"translated-name":"format",
+						"params": {
+							"numOrStr": {
+								"name": "stringOrNumber", 
+								"desc": "String or Number"
+							},
+						"vForm": {
+								"name": "FormatString", 
+								"desc": "Format String"
+							}
+						}
+						
+					},
+					"getdifference": {
+						"description":"Find the difference between your numeral object and a value",
+						"translated-name":"FindDifference",
+						"params": {
+							"firstVal": {
+								"name": "FirstValue", 
+								"desc": "First Value"
+							},
+						"secVal": {
+								"name": "SecondValue", 
+								"desc": "Second value"
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}

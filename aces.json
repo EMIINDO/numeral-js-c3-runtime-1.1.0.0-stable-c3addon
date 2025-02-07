@@ -1,0 +1,53 @@
+﻿{
+	"NumeralJS":
+	{
+		"conditions":
+		[
+				
+		],
+		"actions":
+		[
+			{
+				"id": "SetLocale",
+				"scriptName": "SetLocale",
+				"highlight": false,
+				"params":
+				[
+					{"id": "lang", "type": "string", "initialValue": "\"\""}
+				]
+			}	
+		],
+		"expressions":
+		[
+			{
+				"id": "numeral",
+				"expressionName": "numeral",
+				"returnType": "any",
+				"params":
+				[
+					{"id": "numOrString", "type": "any", "initialValue": "\"\""}
+				]
+			},
+			{
+				"id": "format",
+				"expressionName": "format",
+				"returnType": "any",
+				"params":
+				[
+					{"id": "numOrStr", "type": "any", "initialValue": "\"\""},
+					{"id": "vForm", "type": "any", "initialValue": "\"\""}
+				]
+			},
+			{
+				"id": "getdifference",
+				"expressionName": "getdifference",
+				"returnType": "any",
+				"params":
+				[
+					{"id": "firstVal", "type": "any", "initialValue": "\"\""},
+					{"id": "secVal", "type": "any", "initialValue": "\"\""}
+				]
+			}	
+		]
+	}
+}
